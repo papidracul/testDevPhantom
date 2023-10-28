@@ -110,7 +110,7 @@ export function TodosDataTable<TData, TValue>({
   return (
     <div className="space-y-4 ">
       <DataTableToolbar table={table} />
-      <div className="rounded-md border p-[25px] bg-white">
+      <div className="rounded-md border p-[25px] bg-white rounded-md">
         <header className="flex justify-between mb-[20px]">
           <p>
             Liste des influencers{" "}

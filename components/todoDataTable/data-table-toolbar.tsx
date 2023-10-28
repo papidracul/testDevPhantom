@@ -29,7 +29,7 @@ export function DataTableToolbar<TData>({
   // }
 
   return (
-    <section className="bg-white p-[25px] h-[155px]">
+    <section className="bg-white p-[25px] h-[155px] rounded-md">
       <header className="flex justify-between mb-[30px]">
         <p>Recherche d’influenceurs</p>
         <Button className="bg-[#15A36E]">Rechercher</Button>
@@ -57,8 +57,11 @@ export function DataTableToolbar<TData>({
           )} */}
 
           <Select>
-            <SelectTrigger className="w-fit">
-              <SelectValue placeholder="Nombre de followers" />
+            <SelectTrigger className="w-fit color-[#A6A6A6]">
+              <SelectValue
+                className="color-[#A6A6A6]"
+                placeholder="Nombre de followers"
+              />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="light">Light</SelectItem>
@@ -66,8 +69,11 @@ export function DataTableToolbar<TData>({
           </Select>
 
           <Select>
-            <SelectTrigger className="w-fit">
-              <SelectValue placeholder="Nombre de vue" />
+            <SelectTrigger className="w-fit color-[#A6A6A6]">
+              <SelectValue
+                className="color-[#A6A6A6]"
+                placeholder="Nombre de vue"
+              />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="light">Light</SelectItem>
@@ -75,8 +81,11 @@ export function DataTableToolbar<TData>({
           </Select>
 
           <Select>
-            <SelectTrigger className="w-fit">
-              <SelectValue placeholder="Catégorie" />
+            <SelectTrigger className="w-fit color-[#A6A6A6]">
+              <SelectValue
+                className="color-[#A6A6A6]"
+                placeholder="Catégorie"
+              />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="light">Light</SelectItem>
@@ -84,8 +93,11 @@ export function DataTableToolbar<TData>({
           </Select>
 
           <Select>
-            <SelectTrigger className="w-fit">
-              <SelectValue placeholder="Audience age" />
+            <SelectTrigger className="w-fit color-[#A6A6A6]">
+              <SelectValue
+                className="color-[#A6A6A6]"
+                placeholder="Audience age "
+              />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="light">Light</SelectItem>
@@ -93,8 +105,11 @@ export function DataTableToolbar<TData>({
           </Select>
 
           <Select>
-            <SelectTrigger className="w-fit">
-              <SelectValue placeholder="Note" />
+            <SelectTrigger className="w-fit color-[#A6A6A6]">
+              <SelectValue
+                className="color-[#A6A6A6]"
+                placeholder="Note"
+              />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="light">Light</SelectItem>

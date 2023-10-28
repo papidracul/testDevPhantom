@@ -36,7 +36,7 @@ export default function RootLayout({
             <GridItem
               pos="fixed"
               h="100%"
-              minW="15%"
+              minW="15.5%"
               area={"sidebar"}
               zIndex={3}
             >
@@ -45,7 +45,7 @@ export default function RootLayout({
             <GridItem pos="fixed" area={"nav"} w="100%" zIndex={2}>
               <Navbar />
             </GridItem>
-            <GridItem area={"main"} zIndex={1}>
+            <GridItem area={"main"} w="100%" h="100%" zIndex={1}>
               {children}
             </GridItem>
           </Grid>
